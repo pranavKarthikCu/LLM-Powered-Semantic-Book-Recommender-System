@@ -15,3 +15,5 @@ Implemented in sentiment-analysis.ipynb, this allows the extraction of emotional
 
 Interactive Web Application
 The gradio-dashboard.py script builds a user-friendly Gradio interface for browsing and receiving book recommendations based on the above features.
+
+![image](https://github.com/user-attachments/assets/69072e1e-b0a7-4b6d-b328-cd8b973ee3fe)
