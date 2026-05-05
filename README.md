@@ -16,35 +16,8 @@ Implemented in sentiment-analysis.ipynb, this allows the extraction of emotional
 Interactive Web Application
 The gradio-dashboard.py script builds a user-friendly Gradio interface for browsing and receiving book recommendations based on the above features.
 
-## How to Run
+##Live Demo: https://huggingface.co/spaces/Pranav9905/LLM-Powered-Book-Recommender
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/pranavKarthikCu/LLM-Powered-Semantic-Book-Recommender-System.git
-cd LLM-Powered-Semantic-Book-Recommender-System
-```
 
-### 2. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Run the Notebooks (in order)
-Open and run the notebooks sequentially to prepare the data and build the vector database:
-1. `data-exploration.ipynb` — Clean and preprocess the data
-2. `vector-search.ipynb` — Build the vector database
-3. `text-classification.ipynb` — Classify books as fiction/non-fiction
-4. `sentiment-analysis.ipynb` — Extract sentiment and emotion tags
-
-### 4. Launch the Web App
-```bash
-python gradio-dashboard.py
-```
-Then open your browser and go to: **http://127.0.0.1:7860**
-
----
-## Requirements
-- Python 3.11+
-- See `requirements.txt` for all dependencies
 
 ![image](https://github.com/user-attachments/assets/69072e1e-b0a7-4b6d-b328-cd8b973ee3fe)
